@@ -1,0 +1,6 @@
+{
+  "name": "Kanzen Pet Shop - Cuidado Completo e Excelência para seu Pet",
+  "description": "Site institucional do Kanzen Pet Center: banho e tosa com toalhas esterilizadas, clínica veterinária, farmácia pet, rações premium e delivery rápido em São Paulo e região.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
