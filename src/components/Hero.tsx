@@ -134,15 +134,15 @@ export const Hero: React.FC = () => {
               <div className="hidden md:block absolute -inset-6 sm:-inset-8 rounded-full border border-white/10 pointer-events-none" />
 
               {/* The Hero Circle (contained responsively) */}
-              <div className="w-64 h-64 sm:w-80 sm:h-80 md:w-[360px] md:h-[360px] lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden border-[4px] sm:border-[6px] border-white/95 shadow-[0_20px_50px_rgba(0,0,0,0.45)] relative z-20 bg-slate-800 group mx-auto">
+              <div className="w-64 h-64 sm:w-80 sm:h-80 md:w-[360px] md:h-[360px] lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden border-[4px] sm:border-[6px] border-white/95 shadow-[0_20px_50px_rgba(0,0,0,0.45)] relative z-20 bg-slate-900 group mx-auto">
                 <img
-                  src="/images/hero-dog-circle.jpg"
-                  alt="Pet bem cuidado e feliz na Kanzen Pet Center"
-                  className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
+                  src="/images/beautiful-pet-portrait-small-dog-cat.jpg"
+                  alt="Cãozinho e gatinho acolhidos com toalha e carinho na Kanzen Pet Center"
+                  className="w-full h-full object-cover object-[45%_45%] transition-transform duration-700 ease-out group-hover:scale-105"
                 />
                 
-                {/* Subtle glass reflection overlay */}
-                <div className="absolute inset-0 bg-gradient-to-tr from-black/30 via-transparent to-white/10 pointer-events-none" />
+                {/* Subtle soft rim overlay */}
+                <div className="absolute inset-0 bg-gradient-to-tr from-black/20 via-transparent to-white/15 pointer-events-none" />
               </div>
 
               {/* Floating Badge: Kanzen Official Logo Mark */}
